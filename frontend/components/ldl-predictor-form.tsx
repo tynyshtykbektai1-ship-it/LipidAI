@@ -56,7 +56,7 @@ export function LDLPredictorForm() {
 
     try {
       // Simulating API call - replace with actual FastAPI endpoint
-      const response = await fetch('http://localhost:8000/predict', {
+      const response = await fetch('https://tynyshtyk.LipidAI.hf.space/predict', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
